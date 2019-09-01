@@ -1,0 +1,3 @@
+- id: Bob
+  bio: "He is a duck"
+  avatar: '../assets/images/640x380.jpg'
