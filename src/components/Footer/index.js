@@ -51,6 +51,8 @@ const Wrapper = styled.div`
   width: 100%;
   margin: 0;
   text-align: left;
+  max-width: 300px;
+  padding: 20px;
   & p {
     margin: 0;
     margin-bottom: 1.45rem;
@@ -87,14 +89,27 @@ const Footer = ({ name, facebook, instagram, twitter, email }) => (
   <div className={footerStyle}>
     <Box width="1200px" m="0 auto" p={[3, 3, 4, 0]} align="left" color="white">
       <Flex wrap={['wrap', 'wrap', 'nowrap']} justifyContent="space-between">
-        <Box width={[1, 1, 1 / 3]}>
+        <Box width={[1, 1, 1 / 4]}>
           <Wrapper>
             <div>
               <p>{name}</p>
             </div>
+            <div>
+              <p>Aliquam dignissim dictum neque, ac porttitor nulla rhoncus nec. Nam sed sollicitudin lacus. Duis sit amet interdum massa.</p>
+            </div>
           </Wrapper>
         </Box>
-        <Box width={[1, 1, 1 / 3]}>
+        <Box width={[1, 1, 1 / 4]}>
+          <Wrapper>
+            <div>
+              <p>{name}</p>
+            </div>
+            <div>
+              <p>Aliquam dignissim dictum neque, ac porttitor nulla rhoncus nec. Nam sed sollicitudin lacus. Duis sit amet interdum massa.</p>
+            </div>
+          </Wrapper>
+        </Box>
+        <Box width={[1, 1, 1 / 4]}>
           <Wrapper>
             <ul className={ulStyle}>
               <li>
@@ -109,7 +124,7 @@ const Footer = ({ name, facebook, instagram, twitter, email }) => (
             </ul>
           </Wrapper>
         </Box>
-        <Box width={[1, 1, 1 / 3]}>
+        <Box width={[1, 1, 1 / 4]}>
           <Wrapper>
             <ul className={socialList}>
               <li>
