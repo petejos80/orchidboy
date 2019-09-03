@@ -9,9 +9,7 @@ import media from '../../utils/media';
 
 const footerMain = css`
   overflow: hidden;
-  padding: 2rem 0;
-  background-color: ${colors.accent};
-  color: rgba(255, 255, 255, 0.5);
+  padding: 2rem 0 0;
   text-align: center;
 
   & img {
@@ -24,35 +22,16 @@ const footerMain = css`
 `;
 
 const footerBody = css`
-  overflow: hidden;
-  padding: 2rem 0;
   background-color: ${colors.accent};
   color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-
-  & img {
-    display: block;
-    margin: 0;
-  }
-  & p {
-    color: rgba(255, 255, 255, 0.5);
-  }
+  padding: 120px 0 50px;
 `;
 
 const footerHead = css`
-  overflow: hidden;
-  padding: 2rem 0;
-  background-color: #333;
+  background-color: ${colors.secondary};
   color: rgba(100, 255, 255, 0.5);
-  text-align: center;
-
-  & img {
-    display: block;
-    margin: 0;
-  }
-  & p {
-    color: rgba(30, 20, 55, 0.5);
-  }
+  padding: 65px 0;
+  border-radius: 40px 40px 0 0;
 `;
 
 const ulStyle = css`
